@@ -14,7 +14,7 @@ def action(action):
         command == '/sbin/poweroff'
         sshconnection.exec
     else:
-        print("Unknown Command")
+        print("Unknown Command, type start or stop")
 
 action(input("Do you want to start or stop NAS device? "))
 
